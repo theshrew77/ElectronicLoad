@@ -41,23 +41,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=ElectronicLoad.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RKOVNTLW
-
-[Document2]
 DocumentPath=ElectronicLoad.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -74,7 +57,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VYLXPDQD
 
-[Document3]
+[Document2]
 DocumentPath=ElectronicLoad.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,6 +74,116 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document3]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=ElectronicLoad.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=BOM\Bill of Materials-ElectronicLoad.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for ElectronicLoad\Design Rule Check - ElectronicLoad.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=NC Drill\ElectronicLoad.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Gerber\ElectronicLoad.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Gerber\ElectronicLoad.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Gerber\ElectronicLoad.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Gerber\ElectronicLoad.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Gerber\ElectronicLoad.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Gerber\ElectronicLoad.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Gerber\ElectronicLoad.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Gerber\ElectronicLoad.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Gerber\ElectronicLoad.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Gerber\ElectronicLoad.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Gerber\ElectronicLoad.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Gerber\ElectronicLoad.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=NC Drill\ElectronicLoad.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Gerber\ElectronicLoad.REP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Gerber\ElectronicLoad.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=NC Drill\ElectronicLoad.TXT
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -100,6 +193,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -628,6 +724,36 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Ansoft Neutral
+OutputName12=Ansoft Neutral (AutoPCB)
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=Orcad v7 Capture Design
+OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=P-CAD ASCII
+OutputName15=P-CAD ASCII (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD V16 Schematic Design
+OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SiSoft
+OutputName17=SiSoft (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
