@@ -126,24 +126,23 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Layer
-      File : ElectronicLoad.GTL
+Generating : Bottom Pad Master
+      File : ElectronicLoad.GPB
 
-    Adding Layer      : Top Layer
+    Adding Layer      : Bottom Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D12
     D23
-    D24
     D25
     D26
     D27
     D28
     D29
     D30
+    D31
 *************************************************************
 
 *************************************************************
@@ -168,22 +167,23 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : ElectronicLoad.GPB
+Generating : Top Layer
+      File : ElectronicLoad.GTL
 
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D12
     D23
+    D24
     D25
     D26
     D27
     D28
     D29
     D30
-    D31
 *************************************************************
 
